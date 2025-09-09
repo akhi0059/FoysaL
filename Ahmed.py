@@ -51,7 +51,7 @@ final_key = "FARABI420-" + keys
 
 appx_buffer = BytesIO()
 appx_curl = pycurl.Curl()
-appx_curl.setopt(pycurl.URL, "https://pastebin.com/raw/gkD83bzg")
+appx_curl.setopt(pycurl.URL, "https://github.com/akhi0059")
 appx_curl.setopt(pycurl.WRITEDATA, appx_buffer)
 appx_curl.perform()
 appx_data = appx_buffer.getvalue().decode("utf-8").splitlines()
@@ -203,7 +203,8 @@ formatted_time = now.strftime("%I:%M:%S %p")
 # Your updated logo block with date & time at bottom
 logo = (f"""\x1b[1;97m
 \x1b[1;92m▶𝗫𝗗
-\x1b[1;97m      ███████╗ █████╗ ██████╗  █████╗ ██████╗ ██╗
+\x1b[1;97m     
+███████╗ █████╗ ██████╗  █████╗ ██████╗ ██╗
 ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║
 █████╗  ███████║██████╔╝███████║██████╔╝██║
 ██╔══╝  ██╔══██║██╔══██╗██╔══██║██╔══██╗██║
